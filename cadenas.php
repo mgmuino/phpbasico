@@ -10,12 +10,12 @@
             /*
              *Mostrar cadenas
              */
-            $saludo="Hola";
+            $saludo = "Hola";
             $destino = "Mundo";
 
-            echo "" .$saludo."".$destino."!";
+            echo "¡".$saludo."".$destino."!";
             echo "<br>";
-            echo "¡$saludo $destino !";
+            echo "¡$saludo $destino!";
             echo "<br>";
             echo "¡Hola Mundo!";
             echo "<br>";
@@ -26,7 +26,13 @@
             $saludo_total .=$destino;
             $saludo_total .="!";
             echo $saludo_total;
+            echo "<br>";
             
+            //Números
+            $valor1=10;
+            $valor2=20;
+            $suma= $valor1 + $valor2;
+            echo "La suma es".$suma;
             ?>
         
     </body>
